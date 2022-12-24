@@ -1,0 +1,17 @@
+{
+    "name": "docker_web_app_yurchenko",
+    "version": "1.0.0",
+    "description": "node.js on docker",
+    "author": "Yurchenko Vlad",
+    "main": "server.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon --legacy-watch src/app.js"
+    },
+    "dependencies": {
+        "axios": "^1.2.1",
+        "express": "^4.16.1",
+        "mongoose": "^6.0.5",
+        "nodemon": "^2.0.20"
+    }
+}
